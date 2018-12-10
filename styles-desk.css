@@ -1,5 +1,26 @@
 /* Contains style rules for desktop screens */
+@charset: utf-8;
 @media only screen and (min-width: 480px) {
 	html {
-		background: linear-gradient(#5a5aff, white, #5a5aff);
+		background: linear-gradient(#7a7aff, white, #7a7aff);
+	}
+	body {
+		width: 50%;
+		margin: auto;
+		background-color: #dcb999;
+		padding: 1em;
+	}
+	body > * {
+		margin: auto;
+		text-align: justify;
+	}
+	nav > ul {
+		list-style: none;
+		font-family: 'Times New Roman', serif;
+		
+	}
+	header {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 2em;
+	}
 }

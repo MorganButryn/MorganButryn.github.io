@@ -1,0 +1,12 @@
+/* Styles for index.html only */
+@charset: utf-8;
+@media only screen and (min-width: 480px) {
+	p {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 1.5em;
+	}
+	nav > ul {
+		line-height: 2em;
+		font-size: 1.5em;
+	}
+}

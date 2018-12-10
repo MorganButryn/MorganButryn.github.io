@@ -1,4 +1,17 @@
  /* Contains style rules for mobile screens */
+ @charset: utf-8;
  @media only screen and (max-width: 481px) {
-	 
+	 body {
+		 width: 100%;
+		 background-color: #dcb999;
+	 }
+	 nav > ul {
+		list-style: none;
+		font-family: 'Times New Roman', serif;
+		line-height: 2em;
+	}
+	header {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 1.5em;
+	}
  }
