@@ -9,4 +9,10 @@
 	h1 {
 		font-family: Verdana, Arial, sans-serif;
 	}
+	ul {
+		margin: 1em;
+	}
+	nav {
+		background-color: #aaaaaa;
+	}
 }
